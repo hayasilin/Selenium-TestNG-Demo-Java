@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestAll]">
+  <test name="order(failed)">
+    <classes>
+      <class name="test.TestFailDemo">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testFunction"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.TestFailDemo -->
+      <class name="test.TestDemo">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.TestDemo -->
+      <class name="test.TestCore">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.TestCore -->
+    </classes>
+  </test> <!-- order(failed) -->
+</suite> <!-- Failed suite [TestAll] -->

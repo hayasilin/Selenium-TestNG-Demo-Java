@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="test.TestA">
+        <methods>
+          <include name="setUp"/>
+          <include name="testGooglePageTitleInFirefox"/>
+        </methods>
+      </class> <!-- test.TestA -->
+      <class name="test.TestB">
+        <methods>
+          <include name="setUp"/>
+          <include name="testGooglePageTitleInChrome"/>
+        </methods>
+      </class> <!-- test.TestB -->
+      <class name="test.TestC">
+        <methods>
+          <include name="testGooglePageTitleInIEBrowser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.TestC -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
