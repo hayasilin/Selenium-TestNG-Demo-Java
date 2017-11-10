@@ -1,5 +1,7 @@
 # Selenium-TestNG-Demo-Java
 
+[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)]()
+
 Selenium is a powerful web end to end testing tool and TestNG is a framework that fully compatible to Java. I'm using these tools to run my web application end to end testing (Functional test).
 
 TestNG framework has high integration with Jenkins and it helps to generate test result report and emailable test report for result notification. So it is a useful tool for developer to create a automation environment for implementing DevOps which the testing is auto-start, auto-complete, and auto-notification via email.
